@@ -26,6 +26,7 @@ public class CalculaNominas {
 			fich.escribirFicheroTxt(fich.listaEmpleados);
 			fich.escribirFicheroDat(fich.leerFichero());
 			con.conexionEmpleados(emp1, emp2);
+			con.altaEmpleado();
 			
 			escribe(emp1, emp2);
 		} catch (DatosNoCorrectosException e) {
