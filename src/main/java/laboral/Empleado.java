@@ -1,5 +1,10 @@
 package laboral;
 
+/**
+ * 
+ * @author Sebas
+ *
+ */
 public class Empleado extends Persona {
 	private int categoria;
 	public int anyos;
